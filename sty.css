@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Zilla+Slab:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    gap: 30px;
+    background-image: url(image/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main {
+    border: 3px solid rgb(218, 77, 6);
+    padding: 30px;
+    margin-top: 10%;
+    border-radius: 20px;
+}
+
+.main h1 {
+    font-family: 'Berkshire Swash', serif;
+    text-align: center;
+    padding-bottom: 15px;
+    font-style: italic;
+    color: #0cd319;
+}
+
+.mail span {
+    padding-left: 20%;
+    font-family: 'Zilla Slab', serif;
+    font-size: 1.1em;
+    color: #957208;
+}
+
+.mail input {
+    margin: 1%;
+    margin-left: 20%;
+    padding: 5px;
+    background: #ce21e1;
+    font-size: 1em;
+    font-family: 'Aclonica', sans-serif;
+    color: #0cd319;
+}
+
+.h {
+    text-align: center;
+}
+
+.h a {
+    color: #960c0c;
+    text-decoration: none;
+    text-align: center;
+}
+
+.h a:hover {
+    color: green;
+}
+
+.g{
+    text-align: center;
+}
+
+.g label {
+    color: #c2d81e;
+}
+
+.g a {
+    text-decoration: none;
+}
+
+.g a:hover{
+    color: aqua;
+}
+
+#sign {
+    margin-left: 40%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 0 12px 0 12px;
+    font-family: 'Zilla Slab', serif;
+    color: #c2d81e;
+    font-size: 1.1em;
+}
+#sig {
+    margin-left: 37%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 0 12px 0 12px;
+    font-family: 'Zilla Slab', serif;
+    color: #c2d81e;
+    font-size: 1.1em;
+}
+
+.mai p{
+    color: #adc90c;
+}
+
+.mai span {
+    padding-left: 38%;
+    font-family: 'Zilla Slab', serif;
+    font-size: 1.1em;
+    color: #957208;
+}
+
+.mai input {
+    margin: 1%;
+    margin-left: 38%;
+    padding: 5px;
+    background: #ce21e1;
+    font-size: 1em;
+    font-family: 'Aclonica', sans-serif;
+    color: #0cd319;
+}
+
+#ver {
+    margin-left: 42%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 0 12px 0 12px;
+    font-family: 'Zilla Slab', serif;
+    color: #c2d81e;
+    font-size: 1.1em;
+}
+
+#re {
+    margin-left: 39%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 0 12px 0 12px;
+    font-family: 'Zilla Slab', serif;
+    color: #c2d81e;
+    font-size: 1.1em;
+}
+
+#error{
+    width: 100%;
+    background: transparent;
+    border: none;
+    color: #960c0c;
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+#show{
+    color: #d31b0e;
+    background-color: transparent;
+}
